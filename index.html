@@ -359,7 +359,7 @@
   <script src="js/app.js"></script>
   <script>
   (function(){
-    const API = window.location.port === '3000' ? '' : 'http://localhost:3000';
+    const API = '';  // API routes are always relative (served on same origin)
     const modal = document.getElementById('adminModal');
     const btn = document.getElementById('adminLoginBtn');
     const closeBtn = document.getElementById('adminModalClose');
