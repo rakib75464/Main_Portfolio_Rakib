@@ -616,21 +616,26 @@
   });
 })();
 
-/* ---------- tsParticles Firefly ---------- */
-(async function () {
-  if (typeof tsParticles === 'undefined' || typeof loadFireflyPreset !== 'function') return;
+/* ---------- tsParticles Firefly (async, non-blocking) ---------- */
+(function () {
+  function initFirefly() {
+    if (typeof tsParticles === 'undefined' || typeof loadFireflyPreset !== 'function') return;
+    (async function () {
+      await loadFireflyPreset(tsParticles);
+      await tsParticles.load({
+        id: 'tsparticles',
+        options: {
+          fullScreen: false,
+          background: { color: 'transparent' },
+          particles: { color: { value: '#eb565e' } },
+          preset: 'firefly'
+        }
+      });
+    })();
+  }
 
-  await loadFireflyPreset(tsParticles);
-
-  await tsParticles.load({
-    id: 'tsparticles',
-    options: {
-      fullScreen: false,
-      background: { color: 'transparent' },
-      particles: {
-        color: { value: '#eb565e' }
-      },
-      preset: 'firefly'
-    }
-  });
+  var s = document.createElement('script');
+  s.src = 'https://cdn.jsdelivr.net/npm/@tsparticles/preset-firefly@3/tsparticles.preset.firefly.bundle.min.js';
+  s.onload = initFirefly;
+  document.head.appendChild(s);
 })();
