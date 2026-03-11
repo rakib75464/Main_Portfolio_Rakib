@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Rakib Hasan | Portfolio</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- tsParticles links background -->
+  <div id="tsparticles" aria-hidden="true"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="nav-logo">
+        <span class="led"></span>
+        <span id="nav-name">RH</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#featured-projects">Projects</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="admin-login-btn" id="adminLoginBtn" title="Admin Login">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-hamburger" id="menuBtn" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#expertise" onclick="closeMobile()">Expertise</a>
+      <a href="#featured-projects" onclick="closeMobile()">Projects</a>
+      <a href="#research" onclick="closeMobile()">Research</a>
+      <a href="#skills" onclick="closeMobile()">Skills</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content fade-in">
+          <div class="hero-badge">
+            <span class="led-sm"></span>
+            <span class="label-stamp-accent" id="hero-status">OPEN TO OPPORTUNITIES</span>
+          </div>
+          <h1 id="hero-name">Md. Rakib <span class="accent">Hasan</span></h1>
+          <p class="hero-subtitle" id="hero-subtitle"><span class="hero-subtitle-text"></span><span class="hero-subtitle-cursor">|</span></p>
+          <p class="hero-tagline" id="hero-tagline">Enthusiastic and quick learner with strong problem-solving abilities and a deep interest in technology and digital innovation.</p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+            <a href="#" class="btn btn-secondary" id="hero-resume">Download CV</a>
+          </div>
+        </div>
+        <div class="hero-photo fade-in">
+          <div class="photo-card">
+            <div class="photo-backdrop"></div>
+            <img src="Rakib_Portfolio_nobg.png" alt="Md. Rakib Hasan" class="photo-img" />
+            <div class="photo-shadow-ellipse"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE STRIP ========== -->
+  <div class="marquee-strip">
+    <div class="marquee-track" id="marquee-track">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text-card fade-in">
+          <div class="about-label">
+            <span class="highlight-dot"></span>
+            <span>WHO I AM</span>
+          </div>
+          <div class="about-text" id="about-text"></div>
+        </div>
+        <div class="about-highlights stagger" id="about-highlights">
+          <!-- filled by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERTISE (MAIN HIGHLIGHT) ========== -->
+  <section id="expertise" class="expertise-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <div class="expertise-badge-top">
+          <span class="led-sm"></span>
+          <span class="label-stamp-accent">CORE EXPERTISE</span>
+        </div>
+        <h2>Automation & AI <span class="accent">Specializations</span></h2>
+        <p class="expertise-subtitle">What I do best — end-to-end automation systems that transform businesses</p>
+        <div class="section-line"></div>
+      </div>
+      <div class="expertise-core-grid stagger" id="expertise-core-grid">
+        <!-- filled by JS -->
+      </div>
+
+      <div class="expertise-platforms-section fade-in">
+        <h3 class="expertise-sub-heading">Platforms & Automation Stack</h3>
+        <div class="expertise-platforms-wrap" id="expertise-platforms">
+          <!-- filled by JS -->
+        </div>
+      </div>
+
+      <div class="expertise-two-col">
+        <div class="expertise-col fade-in">
+          <h3 class="expertise-sub-heading">Web Scraping & Data Automation</h3>
+          <div class="expertise-chips-wrap" id="expertise-scraping">
+            <!-- filled by JS -->
+          </div>
+        </div>
+        <div class="expertise-col fade-in">
+          <h3 class="expertise-sub-heading">Advanced Automation Systems</h3>
+          <div class="expertise-chips-wrap" id="expertise-advanced">
+            <!-- filled by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EDUCATION & EXPERIENCE ========== -->
+  <section id="education">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Education & Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline stagger" id="education-timeline">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PROJECTS ========== -->
+  <section id="featured-projects">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Featured <span class="accent">Projects</span></h2>
+        <a href="https://www.upwork.com/freelancers/~01f2a2109568b0d35c" target="_blank" rel="noopener noreferrer" class="fp-profile-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          View All on Upwork
+        </a>
+        <div class="section-line"></div>
+      </div>
+      <div class="featured-projects-grid stagger" id="featured-projects-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Other Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid stagger" id="projects-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESEARCH ========== -->
+  <section id="research">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Research</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="research-grid stagger" id="research-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Tech Skills</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid stagger" id="skills-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXTRAS (Community, Languages, Interests) ========== -->
+  <section id="extras">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Beyond the Code</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="extras-grid" id="extras-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Get in Touch</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid stagger" id="contact-grid">
+        <!-- filled by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL LINKS ========== -->
+  <section class="social-section">
+    <div class="container">
+      <div class="section-heading fade-in">
+        <h2>Let's Connect</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="social-links-grid fade-in">
+        <a href="https://www.facebook.com/r.a.kib.436238" target="_blank" rel="noopener noreferrer" class="social-link-card">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          <span class="social-name">Facebook</span>
+        </a>
+        <a href="https://www.instagram.com/ra_k_ib_75/?hl=en" target="_blank" rel="noopener noreferrer" class="social-link-card">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <span class="social-name">Instagram</span>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="social-link-card">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <span class="social-name">GitHub</span>
+        </a>
+        <a href="https://www.upwork.com/freelancers/~01f2a2109568b0d35c" target="_blank" rel="noopener noreferrer" class="social-link-card">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"/></svg>
+          <span class="social-name">Upwork</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-text" id="footer-text">© 2026 Md. Rakib Hasan — Built with precision.</span>
+      <div class="footer-led">
+        <span class="led"></span>
+        <span>SYSTEM ONLINE</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- ========== CHAT ASSISTANT ========== -->
+  <div class="chat-widget" id="chatWidget">
+    <button class="chat-fab" id="chatFab" aria-label="Open chat assistant">
+      <svg class="chat-fab-icon open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <svg class="chat-fab-icon close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-header">
+        <div class="chat-header-info">
+          <div class="chat-avatar">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1.07A7 7 0 0 1 14 23h-4a7 7 0 0 1-6.93-4H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2zm-2 9a5 5 0 0 0-5 5v1h14v-1a5 5 0 0 0-5-5h-4zm1 3a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3zm4 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z"/></svg>
+            <span class="chat-avatar-dot"></span>
+          </div>
+          <div class="chat-header-text">
+            <span class="chat-header-title">RakibBot</span>
+            <span class="chat-header-status"><span class="status-dot"></span> Active now</span>
+          </div>
+        </div>
+        <button class="chat-close-btn" id="chatCloseBtn" aria-label="Close chat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="chat-msg bot">
+          <div class="chat-bubble">Hi! I'm RakibBot 👋 Ask me anything about Rakib's skills, projects, or experience!</div>
+        </div>
+      </div>
+      <form class="chat-input-form" id="chatForm">
+        <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." autocomplete="off" />
+        <button type="submit" class="chat-send-btn" id="chatSendBtn" aria-label="Send message">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========== ADMIN LOGIN MODAL ========== -->
+  <div class="admin-modal-overlay" id="adminModal">
+    <div class="admin-modal-card">
+      <button class="admin-modal-close" id="adminModalClose" aria-label="Close">&times;</button>
+      <div class="login-led-row"><span class="led"></span></div>
+      <h2 class="admin-modal-title" id="adminModalTitle">Admin Login</h2>
+      <p class="admin-modal-subtitle" id="adminModalSubtitle">Portfolio Dashboard</p>
+      <form id="adminModalForm" autocomplete="off">
+        <div class="form-group" id="adminUsernameGroup" style="display:none">
+          <label class="form-label">Username</label>
+          <input class="form-input" id="adminModalUsername" type="text" autocomplete="username" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email</label>
+          <input class="form-input" id="adminModalEmail" type="email" required autocomplete="username" />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <div style="position:relative">
+            <input class="form-input" id="adminModalPassword" type="password" required autocomplete="current-password" />
+            <button type="button" class="admin-modal-eye" id="adminModalTogglePw" aria-label="Show password">
+              <svg class="eye-o" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              <svg class="eye-c" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+            </button>
+          </div>
+        </div>
+        <p class="admin-modal-error" id="adminModalError"></p>
+        <button class="btn btn-primary" type="submit" style="width:100%;margin-top:0.5rem">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/preset-firefly@3/tsparticles.preset.firefly.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+  (function(){
+    const API = window.location.port === '3000' ? '' : 'http://localhost:3000';
+    const modal = document.getElementById('adminModal');
+    const btn = document.getElementById('adminLoginBtn');
+    const closeBtn = document.getElementById('adminModalClose');
+    const form = document.getElementById('adminModalForm');
+    const errorEl = document.getElementById('adminModalError');
+    const titleEl = document.getElementById('adminModalTitle');
+    const subtitleEl = document.getElementById('adminModalSubtitle');
+    const usernameGroup = document.getElementById('adminUsernameGroup');
+    const togglePw = document.getElementById('adminModalTogglePw');
+    const pwInput = document.getElementById('adminModalPassword');
+    let needsSetup = false;
+
+    // If already logged in, go straight to admin
+    if (sessionStorage.getItem('admin_token')) {
+      btn.title = 'Go to Dashboard';
+    }
+
+    btn.addEventListener('click', async () => {
+      // If already logged in, go to dashboard
+      if (sessionStorage.getItem('admin_token')) {
+        try {
+          const r = await fetch(API + '/api/auth/verify', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + sessionStorage.getItem('admin_token') }
+          });
+          if (r.ok) { window.location.href = 'admin.html'; return; }
+        } catch(e) {}
+        sessionStorage.removeItem('admin_token');
+      }
+
+      // Check if first-time setup
+      try {
+        const r = await fetch(API + '/api/auth/needs-setup');
+        const d = await r.json();
+        needsSetup = d.needsSetup;
+      } catch(e) { needsSetup = false; }
+
+      if (needsSetup) {
+        titleEl.textContent = 'Create Admin Account';
+        subtitleEl.textContent = 'First-time Setup';
+        usernameGroup.style.display = '';
+      } else {
+        titleEl.textContent = 'Admin Login';
+        subtitleEl.textContent = 'Portfolio Dashboard';
+        usernameGroup.style.display = 'none';
+      }
+      errorEl.textContent = '';
+      modal.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', () => modal.classList.remove('active'));
+    modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('active'); });
+
+    togglePw.addEventListener('click', () => {
+      const show = pwInput.type === 'password';
+      pwInput.type = show ? 'text' : 'password';
+      togglePw.querySelector('.eye-o').style.display = show ? 'none' : '';
+      togglePw.querySelector('.eye-c').style.display = show ? '' : 'none';
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('adminModalEmail').value.trim();
+      const password = pwInput.value;
+      const username = document.getElementById('adminModalUsername').value.trim();
+      errorEl.textContent = '';
+
+      try {
+        let endpoint = '/api/auth/login';
+        let body = { email, password };
+        if (needsSetup) {
+          if (!username) { errorEl.textContent = 'Username is required.'; return; }
+          endpoint = '/api/auth/register';
+          body = { username, email, password };
+        }
+        const res = await fetch(API + endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body)
+        });
+        const text = await res.text();
+        let data;
+        try { data = JSON.parse(text); } catch(e) { throw new Error('Server error. Please try again.'); }
+        if (!res.ok) throw new Error(data.error || 'Login failed');
+        sessionStorage.setItem('admin_token', data.token);
+        modal.classList.remove('active');
+        window.location.href = 'admin.html';
+      } catch (err) {
+        errorEl.textContent = err.message || 'Login failed.';
+      }
+    });
+  })();
+  </script>
+</body>
+</html>

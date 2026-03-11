@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "siteTitle": "Md. Rakib Hasan | Automation & AI Expert",
+    "favicon": "⚡"
+  },
+  "hero": {
+    "name": "Md. Rakib Hasan",
+    "title": "GoHighLevel Expert | N8N | AI Chatbot & Voice Agent Automation Expert",
+    "subtitle": "Automation Expert · AI Agent Builder · CRM Specialist",
+    "tagline": "GoHighLevel Expert & N8N Advanced Workflow Automation Specialist. I build AI Chatbots, Voice Agents, Lead Capture Systems, and end-to-end Business Process Automations that scale your operations and save hundreds of hours.",
+    "resumeLink": "Md. Rakib Hasan_22-49029-3.pdf",
+    "statusText": "AVAILABLE FOR PROJECTS",
+    "heroImage": ""
+  },
+  "about": {
+    "heading": "About Me",
+    "description": "I am an Automation & AI Expert specializing in GoHighLevel CRM, N8N Advanced Workflows, AI Chatbot & Voice Agent Automation, and full-stack Business Process Automation. With deep expertise in building complex multi-step automation systems, I help businesses automate lead capture, nurturing, sales funnels, appointment booking, and CRM pipelines — saving hundreds of hours and driving measurable growth.",
+    "highlights": [
+      "GoHighLevel & N8N Automation Expert",
+      "AI Chatbot & Voice Agent Specialist",
+      "Full Stack Business Process Automation",
+      "Web Scraping & Data Extraction Pro",
+      "Academic Scholarship Holder — CGPA: 3.90",
+      "Research Presenter at International Conference"
+    ]
+  },
+  "contact": {
+    "email": "rakib.hasan@octopi-digital.com",
+    "emailAlt": "rakibss974@gmail.com",
+    "emailAlt2": "rakib.octopidigital@gmail.com",
+    "location": "Mirpur-06, Dhaka-1216",
+    "github": "",
+    "linkedin": "",
+    "calendarLink": "https://calendar.app.google/usy9zJx24Km19xMZ7"
+  },
+  "experience": [
+    {
+      "role": "AI & Automation Engineer",
+      "company": "Octopi Digital Limited",
+      "year": "January 2026 — Present",
+      "link": "https://octopi-digital.com",
+      "details": [
+        "Building AI Chatbots, Voice Agents & Workflow Automations",
+        "GoHighLevel CRM & N8N Advanced Automation Systems"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science & Engineering",
+      "institution": "American International University Bangladesh (AIUB)",
+      "year": "2022 — 2026",
+      "details": [
+        "CGPA: 3.90 out of 4.00",
+        "Academic Scholarship Holder",
+        "3x Dean's List Award Recipient"
+      ]
+    },
+    {
+      "degree": "Higher Secondary Certificate (Science)",
+      "institution": "Govt. Science College",
+      "year": "2021",
+      "details": [
+        "GPA: 5.00 out of 5.00"
+      ]
+    },
+    {
+      "degree": "Secondary School Certificate (Science)",
+      "institution": "Mirpur Bangla High School and College",
+      "year": "2019",
+      "details": [
+        "GPA: 5.00 out of 5.00"
+      ]
+    }
+  ],
+  "featuredProjects": [
+    {
+      "title": "AI Chatbot for OptimalMD Portal Users using n8n & GoHighLevel API",
+      "tech": "n8n, GoHighLevel API, AI Chatbot, REST API",
+      "description": "Built a secure AI-powered chatbot for OptimalMD portal users using n8n and GoHighLevel API. The system verifies user identity in real time — verified users get full automated assistance, while unauthorized users are restricted. Combines workflow automation with API integration for instant, secure support.",
+      "features": [
+        "Automated portal user verification",
+        "Secure access control for responses",
+        "GoHighLevel API integration",
+        "n8n workflow automation",
+        "AI-driven conversational interaction"
+      ],
+      "thumbnail": "Thumbnail_optimalmd.png",
+      "gallery": [
+        "Optimalmd_1.png"
+      ],
+      "link": ""
+    },
+    {
+      "title": "AI Operations Assistant with Real-Time Task Automation",
+      "tech": "n8n, OpenAI API, Webhook, Task Automation",
+      "description": "Developed an AI-powered operations assistant that automates real-time task management and workflow execution. The system intelligently processes incoming requests, routes tasks to appropriate handlers, and executes multi-step operations autonomously — reducing manual workload and response time dramatically.",
+      "features": [
+        "Real-time task routing & execution",
+        "AI-driven decision workflows",
+        "Multi-step operation automation",
+        "Webhook-based event triggers",
+        "Intelligent request processing"
+      ],
+      "thumbnail": "Final_Monakeyman_thumbnail.png",
+      "gallery": [
+        "Monakeyman_1.png",
+        "monkeyman_2.png",
+        "monkeyman_3.png"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Complete CRM Setup for Amigo Advisors Using GoHighLevel (GHL)",
+      "tech": "GoHighLevel, CRM, Pipeline Automation, Lead Nurturing",
+      "description": "Designed and implemented a complete CRM system for Amigo Advisors using GoHighLevel. Built custom pipelines, automated lead capture workflows, follow-up sequences, appointment booking, and reporting dashboards — transforming their sales process from manual to fully automated.",
+      "features": [
+        "Full CRM pipeline setup",
+        "Automated lead capture & nurturing",
+        "Appointment booking automation",
+        "Follow-up SMS & email sequences",
+        "Custom reporting dashboards"
+      ],
+      "thumbnail": "final_amigo_crm_thumbnail.png",
+      "gallery": [
+        "Amigo_CRM.png",
+        "amigo_1.png"
+      ],
+      "link": ""
+    },
+    {
+      "title": "AI Voice Agent for Law Firm | GHL Automation System",
+      "tech": "VAPI AI, GoHighLevel, Twilio, Voice Automation",
+      "description": "Built an AI-powered voice agent for a law firm that handles inbound and outbound calls, qualifies leads, books appointments, and manages follow-ups — all integrated with GoHighLevel CRM. The voice agent operates 24/7, ensuring no lead is missed and every call is handled professionally.",
+      "features": [
+        "AI voice call handling",
+        "Automated lead qualification",
+        "Appointment scheduling via voice",
+        "GoHighLevel CRM integration",
+        "24/7 inbound & outbound calls"
+      ],
+      "thumbnail": "Voice_Ai_Thumbnail.png",
+      "gallery": [
+        "Voice_AI_1.png",
+        "voice_ai_2.png",
+        "vai_ai_3.png",
+        "voice_ai_4.png"
+      ],
+      "link": ""
+    },
+    {
+      "title": "Real Estate Web Scraping Automation for Foreclosure Lead Generation",
+      "tech": "Apify, Web Scraping, Data Automation, Lead Generation",
+      "description": "Developed an automated web scraping system for real estate foreclosure lead generation. The system extracts property listings, owner data, and foreclosure details from multiple sources, cleans and structures the data, and delivers enriched lead lists ready for outreach — saving hours of manual research.",
+      "features": [
+        "Automated foreclosure data extraction",
+        "Multi-source web scraping",
+        "Data cleaning & structuring",
+        "Lead enrichment pipeline",
+        "Scheduled automated runs"
+      ],
+      "thumbnail": "Final_webscrap_thumbnail.png",
+      "gallery": [
+        "webscraping_1.png"
+      ],
+      "link": ""
+    },
+    {
+      "title": "AI 24/7 WooCommerce Chatbot with Messenger Automation",
+      "tech": "AI Chatbot, WooCommerce, Messenger API, Automation",
+      "description": "Created an AI-powered chatbot for WooCommerce stores that provides 24/7 customer support through Facebook Messenger. The bot handles product inquiries, order tracking, FAQs, and purchase assistance — driving conversions and reducing support tickets with intelligent automated responses.",
+      "features": [
+        "24/7 AI customer support",
+        "WooCommerce store integration",
+        "Facebook Messenger automation",
+        "Order tracking & FAQ handling",
+        "Conversion-driven chat flows"
+      ],
+      "thumbnail": "thumbnail_with_3inch_border.png",
+      "gallery": [
+        "ChatGPT Image Feb 26, 2026, 11_44_06 PM.png"
+      ],
+      "link": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "CareerConnect",
+      "tech": "HTML, CSS, JavaScript, PHP, MySQL",
+      "description": "Led the development of a full-stack web portal facilitating interaction between job seekers and companies.",
+      "link": ""
+    },
+    {
+      "title": "PharmacyDriver",
+      "tech": "C#, .NET, SQL Server",
+      "description": "Developed a comprehensive desktop application for pharmacy inventory, sales, and customer data, featuring online ordering and stock alerts.",
+      "link": ""
+    },
+    {
+      "title": "Advanced NLP Models for Text Classification",
+      "tech": "Python, BERT, BioBERT",
+      "description": "Implemented and fine-tuned BERT and BioBERT models on general and PubMed datasets to build a robust text classification system for specialized NLP tasks.",
+      "link": ""
+    },
+    {
+      "title": "Railway Management System",
+      "tech": "Oracle SQL",
+      "description": "Designed and developed a comprehensive Oracle database system to efficiently manage train schedules, passenger bookings, and customer data.",
+      "link": ""
+    }
+  ],
+  "research": [
+    {
+      "title": "Analysis of Soil Salinity and Earth Metal Concentrations Along River Distance Gradients in The Sundarbans",
+      "dataset": "Secondary Dataset (Government Official Dataset)",
+      "description": "Collected and analyzed soil samples along river gradients in the Sundarbans to assess salinity levels and heavy metal concentrations, identifying spatial patterns and environmental risks.",
+      "venue": "24th International Mathematics Conference, University of Chittagong",
+      "status": "Abstract Accepted, Paper Acceptation Ongoing, Presentation Given"
+    },
+    {
+      "title": "Comparative Analysis of Classification Techniques in Data Mining: KNN, Naive Bayes, and Decision Trees",
+      "dataset": "Secondary Dataset Analysis",
+      "description": "Performed a comparative study of KNN, Naive Bayes, and Decision Tree algorithms using real datasets to evaluate classification accuracy, efficiency, and suitability for predictive analytics.",
+      "venue": "24th International Mathematics Conference, University of Chittagong",
+      "status": "Abstract Accepted, Paper Acceptation Ongoing, Presentation Given"
+    },
+    {
+      "title": "Socio-Economic Impact Evaluation of Microfinance Programs through Difference-in-Differences Approach",
+      "dataset": "Dataset Selection Process Ongoing",
+      "description": "Journal paperwork under Prof. Dr. Dip Nandi, Associate Dean, Faculty of Science & Technology, AIUB.",
+      "venue": "Journal Publication (In Progress)",
+      "status": "Title Locked, Under Supervision"
+    }
+  ],
+  "skills": {
+    "languages": [
+      "C++",
+      "C#",
+      "Java",
+      "Python",
+      "R",
+      "JavaScript",
+      "PHP"
+    ],
+    "web": [
+      "HTML",
+      "CSS",
+      "Django",
+      "MySQL",
+      "phpMyAdmin",
+      "Oracle SQL"
+    ],
+    "tools": [
+      "Linux",
+      "Microsoft Office Suite",
+      "GLUT (Graphics)",
+      "Git"
+    ],
+    "concepts": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Analysis & Design",
+      "NLP",
+      "Data Analysis",
+      "Statistics",
+      "Database Management",
+      "MIS"
+    ]
+  },
+  "expertise": {
+    "coreServices": [
+      {
+        "icon": "zap",
+        "title": "N8N Advanced Workflow Automation",
+        "desc": "Complex multi-step workflow design, API integrations, and process orchestration"
+      },
+      {
+        "icon": "bot",
+        "title": "AI Chatbot Automation & Lead Qualification",
+        "desc": "Intelligent chatbots for 24/7 lead capture, qualification, and conversion"
+      },
+      {
+        "icon": "mic",
+        "title": "Voice AI Agent Automation",
+        "desc": "AI-powered voice agents for calls, appointments, and customer engagement"
+      },
+      {
+        "icon": "scrape",
+        "title": "Web Scraping & Data Extraction Automation",
+        "desc": "Automated data collection, cleaning, and enrichment at scale"
+      },
+      {
+        "icon": "crm",
+        "title": "GoHighLevel CRM Automation",
+        "desc": "Full CRM setup, pipeline automation, and marketing workflow design"
+      },
+      {
+        "icon": "funnel",
+        "title": "Sales Funnel & Lead Nurturing Automation",
+        "desc": "End-to-end funnel automation with email, SMS, and WhatsApp sequences"
+      },
+      {
+        "icon": "calendar",
+        "title": "Appointment Booking & Calendar Automation",
+        "desc": "Seamless scheduling with automated reminders and follow-ups"
+      },
+      {
+        "icon": "api",
+        "title": "Webhook & API Automation",
+        "desc": "Custom webhook handlers, REST API integrations, and data sync pipelines"
+      },
+      {
+        "icon": "bpa",
+        "title": "Business Process Automation (BPA)",
+        "desc": "Full backend automation architecture for scalable business systems"
+      },
+      {
+        "icon": "saas",
+        "title": "SaaS & No-Code/Low-Code Automation",
+        "desc": "SaaS process automation with Zapier, Make, Pabbly, and custom solutions"
+      }
+    ],
+    "platforms": [
+      "N8N",
+      "GoHighLevel",
+      "VAPI AI",
+      "SimpleTalk AI",
+      "OpenAI / ChatGPT API",
+      "Twilio",
+      "Zapier",
+      "Make.com",
+      "Pabbly Connect",
+      "Airtable",
+      "Google Sheets",
+      "Google Apps Script",
+      "Stripe",
+      "Calendly",
+      "Webhook & REST API"
+    ],
+    "scrapingTools": [
+      "Apify",
+      "Bright Data",
+      "Oxylabs",
+      "ScraperAPI",
+      "Playwright / Puppeteer",
+      "SerpAPI",
+      "Lead Enrichment APIs",
+      "Data Cleaning & Structuring"
+    ],
+    "advancedSystems": [
+      "CRM Pipeline Automation",
+      "Marketing Automation Systems",
+      "Lead Capture & Qualification",
+      "Follow-Up Sequence Automation",
+      "Reporting & Dashboard Automation",
+      "SaaS Process Automation",
+      "AI-Driven Decision Workflows",
+      "Full Backend Automation Architecture"
+    ]
+  },
+  "community": [
+    {
+      "role": "Probationary Member",
+      "organization": "AIUB Environment Club"
+    },
+    {
+      "role": "Assistant Manager",
+      "organization": "GSC Scientist Mania"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Bangla",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Fluent"
+    },
+    {
+      "name": "Hindi",
+      "level": "Conversational"
+    }
+  ],
+  "interests": [
+    "Research",
+    "Reading",
+    "Puzzles & Logical Games",
+    "Football",
+    "Cricket",
+    "Futsal",
+    "Travelling",
+    "Tech Exploring"
+  ]
+}
